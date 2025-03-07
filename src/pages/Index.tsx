@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Paw, Heart, MessageCircle, User } from 'lucide-react';
+import { Dog, Heart, MessageCircle, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 
@@ -82,7 +82,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="glass-card p-6 rounded-xl flex flex-col items-center text-center">
               <div className="bg-pawblue-100 dark:bg-pawblue-900/50 p-4 rounded-full mb-4">
-                <Paw size={32} className="text-pawblue-600 dark:text-pawblue-400" />
+                <Dog size={32} className="text-pawblue-600 dark:text-pawblue-400" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Create a Profile</h3>
               <p className="text-gray-600 dark:text-gray-300">
